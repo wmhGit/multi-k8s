@@ -13,8 +13,8 @@ spec:
         component: worker
     spec:
       containers:
-        -name: worker
-         image: stephengrider/multi-worker 
-         env:
-           - name: REDIS_HOST
-             value: '6379'
+        - name: worker
+          image: stephengrider/multi-worker 
+          env:
+            - name: REDIS_HOST
+              value: '6379'
